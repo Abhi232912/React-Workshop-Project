@@ -15,10 +15,10 @@ const Footer = () => {
             <img src="images/logo-wide.png" alt="Footer Logo" width="120px" />
 
             <ul>
-                <li><a href="https://maps.app.goo.gl/YEx3EkNtAa73xJ1Z6" target="_blank"><span><FontAwesomeIcon icon={faLocationPin}/>
+                <li><a href="https://maps.app.goo.gl/YEx3EkNtAa73xJ1Z6" target="_blank" rel="noopener noreferrer" ><span><FontAwesomeIcon icon={faLocationPin}/>
                         </span>#14, 4th Floor, behind Capital Park, Arunodaya Colony, Silicon Valley, Madhapur,
                         Hyderabad, Telangana 500081</a></li>
-                <li><a href="https://maps.app.goo.gl/YEx3EkNtAa73xJ1Z6" target="_blank"><span><FontAwesomeIcon icon={faLocationPin}/>
+                <li><a href="https://maps.app.goo.gl/YEx3EkNtAa73xJ1Z6" target="_blank" rel="noopener noreferrer"  ><span><FontAwesomeIcon icon={faLocationPin}/>
                         </span>1-90/B/C/5, Vital Rao Nagar, opposite Melange tower, HUDA Techno Enclave Road, HITEC
                         City, Hyderabad, Telangana 500081</a></li>
 
@@ -37,13 +37,13 @@ const Footer = () => {
         <div class="useful-links">
             <h4>Useful Links</h4>
             <ul>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>About us</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Our Courses</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Gallery</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Career</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Book a Demo</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Become An Instructor</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Contact Us </a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>About us</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Our Courses</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Gallery</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Career</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Book a Demo</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Become An Instructor</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Contact Us </a></li>
 
             </ul>
         </div>
@@ -51,13 +51,13 @@ const Footer = () => {
         <div class="quick-links">
             <h4>Quick Links</h4>
             <ul>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Payments</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Internship</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Certificates</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Terms&conditions</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Disclaimer</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Privacy&Policy</a></li>
-                <li><a href=""><span><FontAwesomeIcon icon={faAngleRight}/></span>Refer&Earn</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Payments</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Internship</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Certificates</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Terms&conditions</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Disclaimer</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Privacy&Policy</a></li>
+                <li><a href="https://digitinstitute.in/"><span><FontAwesomeIcon icon={faAngleRight}/></span>Refer&Earn</a></li>
             </ul>
         </div>
 
@@ -72,11 +72,11 @@ const Footer = () => {
             <h4>Follow Us</h4>
 
             <ul>
-                <li><a href="" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a></li>
-                <li><a href="" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a></li>
-                <li><a href="" target="_blank"><FontAwesomeIcon icon={faGooglePlus}/></a></li>
-                <li><a href="" target="_blank"><FontAwesomeIcon icon={faYoutube}/></a></li>
-                <li><a href="" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faFacebook}/></a></li>
+                <li><a href="https://x.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter}/></a></li>
+                <li><a href="https://www.google.co.in/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGooglePlus}/></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faYoutube}/></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram}/></a></li>
             </ul>
         </div>
     </footer>
