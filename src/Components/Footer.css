@@ -151,6 +151,25 @@ footer{
 /* Whatsapp button ends */
 
 
+/* Responsive Adjustments for Different Screen Sizes */
+@media (max-width: 1440px) { /* Large screens */
+    footer {
+        padding: 40px 60px;
+        grid-template-columns: 1fr 1fr 1fr; /* Three columns */
+    }
+}
+
+@media (max-width: 1024px) { /* Tablets and smaller desktops */
+    footer {
+        grid-template-columns: 1fr 1fr; /* Two columns */
+        padding: 40px 40px;
+    }
+
+    .subscribe ul li {
+        margin-right: 8px; /* Reduce margin for icons */
+    }
+}
+
 @media (max-width: 768px) { /* Tablets and large phones */
     footer {
         grid-template-columns: 1fr; /* Stack all sections vertically */
