@@ -167,82 +167,60 @@
 
     /* about us section css starts*/
     .about-us {
-
+        padding: 20px 20px;
         grid-template-columns: 1fr;
     }
 
     .about-img img {
         width: 100%;
+
     }
 
     /* about us section css ends*/
 
     /* Courses Section Css Starts */
-    .course-card img {
-        height: 200px;
-        width: 185px;
+    .our-courses {
+        padding: 20px 20px;
+
+    }
+
+    .all-courses {
+        grid-template-columns: 1fr;
     }
 
     /* Courses Section Css ends */
-
-    /* Main Banner Section Css Start */
-    .main-content h1 {
-        font-size: 32px;
-        margin: 50px 0px;
-    }
-
-    /* Main Banner Section Css ends */
-
-    /* about us section css starts*/
-    .about-us {
-
-        grid-template-columns: 1fr;
-    }
-
-    .about-img img {
-        width: 100%;
-    }
-
-    /* about us section css ends*/
-
-    /* Courses Section Css Starts */
-    .course-card img {
-        height: 200px;
-        width: 185px;
-    }
-
 }
 
-/* Courses Section Css ends */
+
 
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
 
-    /* Main Banner Section Css Start */
-    .main-content h1 {
-        font-size: 32px;
-        margin: 50px 0px;
-    }
+   /* Main Banner Section Css Start */
+   .main-content h1 {
+    font-size: 32px;
+    margin: 50px 0px;
+}
 
-    /* Main Banner Section Css ends */
+/* Main Banner Section Css ends */
 
-    /* about us section css starts*/
-    .about-us {
+/* about us section css starts*/
+.about-us {
 
-        grid-template-columns: 1fr;
-    }
+    grid-template-columns: 1fr;
+}
 
-    .about-img img {
-        width: 100%;
-    }
+.about-img img {
+    width: 100%;
+}
 
-    /* about us section css ends*/
+/* about us section css ends*/
 
-    /* Courses Section Css Starts */
-    .course-card img {
-        height: 200px;
-        width: 185px;
-    }
+/* Courses Section Css Starts */
+.course-card img {
+    height: 200px;
+    width: 185px;
+}
 
-    /* Courses Section Css ends */
+/* Courses Section Css ends */
 }
