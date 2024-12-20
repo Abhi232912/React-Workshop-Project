@@ -1,0 +1,152 @@
+/* Main Banner Section Css Start */
+
+.main-banner {
+    /* background-image: url('../images/banneer.img.jpg'); */
+    height:500px;
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-position: center center;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+
+.main-banner::before{
+    content:'';
+    position:absolute;
+    width: 100%;
+    height:100%;
+    background-color: #000;
+    opacity:0.8;
+}
+
+.main-content{
+    color:#fff;
+    position:absolute;
+    
+}
+
+.main-content h1{
+    font-size: 50px;
+    margin:50px 0px;
+}
+
+.main-content span{
+    color:#2cabe1;
+}
+
+.main-content p {
+    width:100%;
+    max-width: 500px;
+    margin:0px auto;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.btn-one {
+    background-color: #2cabe1;
+    color:#fff;
+    border:none;
+    padding:10px 25px;
+    margin-left: 5px;
+    border-radius:4px;
+    font-size:15px;
+}
+
+.btn-one:hover{
+    background-color: #fff;
+    color:#2cabe1;
+
+}
+
+.btn-two {
+    background-color:transparent;
+    color:#fff;
+    border:1px solid #fff;
+    padding:10px 25px;
+    margin-left: 15px;
+    border-radius:4px;
+    font-size:15px;
+}
+.btn-two:hover{
+    background-color: #fff;
+    color:#2cabe1;
+}
+
+/* Main Banner Section Css ends */
+
+
+/* about us section css starts*/
+.about-us{
+    padding: 20px 80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:40px;
+}
+
+.about-img img {
+    width:600px;
+    height:300px;
+    column-gap:15px;
+}
+/* about us section css ends*/
+
+
+/* Courses Section Css Starts */
+.our-courses {
+    background-color:#eeeeee;
+    padding:40px 80px;
+    text-align: center;
+}
+
+.our-courses p{
+    width:100%;
+    max-width: 500px;
+    margin:0 auto;
+}
+
+.all-courses {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+
+}
+.course-card{
+    background-color: #fff;
+    border-radius: 6px;
+    margin-top:40px;
+}
+
+.course-card img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 200px;
+    width:350px;
+}
+
+.course-content {
+    text-align: left;
+    padding:0 10px;
+}
+
+.course-content p {
+    padding-bottom: 10px;
+}
+
+.course-btn {
+    border-top:1px solid #eeeeee;
+
+}
+
+.course-btn button{
+    float: right;
+    margin:10px;
+    background-color:#2cabe1;
+    color:#fff;
+    border:none;
+    padding: 6px 18px;
+    border-radius:4px;
+}
+
+/* Courses Section Css ends */

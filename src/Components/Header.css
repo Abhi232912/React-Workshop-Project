@@ -1,0 +1,89 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: transparent;
+    font-family: "Nunito Sans", sans-serif;
+} 
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style:none;
+    padding:0px;
+    margin:0px;
+}
+
+/* Topbar Css Starts*/
+
+ .topbar  {
+    background-color: #072044;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.topbar-contact ul, .topbar-social, .topbar-social ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.topbar-contact ul li a,.topbar-social ul li a{
+    color: #fff;
+    padding:10px;
+    
+}
+
+.topbar-contact ul li a:hover, .topbar-social ul li a:hover{
+    color:#2cabe1;
+}
+
+.topbar-social ul {
+    border-right:1px solid #fff;
+}
+
+.topbar-social button {
+    background-color: #2cabe1;
+    color:#fff;
+    padding:10px 24px;
+    margin-left:15px;
+    border:none;
+    border-radius :5px;
+}
+
+.topbar-social  button:hover {
+    background-color: #fff;
+    color:#2cabe1;
+
+}
+
+/* Topbar css end*/
+
+/* Header */
+.main-header{
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li a {
+    color: #000;
+    padding-left: 15px;
+    font-size:15px;
+    font-weight:800px ;
+
+}
+
+.navbar ul li a:hover {
+    color:#2cabe1;
+}
+

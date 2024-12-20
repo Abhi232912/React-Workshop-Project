@@ -1,0 +1,151 @@
+/* Footer*/
+
+footer{
+    background-color:#072940;
+    padding:40px 80px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    column-gap:40px;
+}
+ 
+.footer-contact ul li a {
+    color:#eeeeee;
+    display: flex;
+}
+
+.footer-contact ul li a:hover{
+    color:#2cabe1;
+}
+
+.footer-contact h4{
+    color:#2cabe1;
+    margin: 0px;
+    padding-top: 20px;
+
+}
+
+.footer-contact ul li{
+    padding-right: 20px;
+}
+
+.footer-contact ul li a span{
+    padding-right: 10px;
+}
+
+.useful-links h4, .quick-links h4, .subscribe h4 {
+    color:#eeeeee;
+    margin: 0px;
+
+}
+
+.useful-links ul, .quick-links ul{
+    padding-top:20px;
+
+}
+
+.useful-links ul li, .quick-links ul li{
+    padding-top:16px;
+}
+
+.useful-links ul a, .quick-links ul li a{
+    color:#eeeeee;
+}
+
+.useful-links ul li a:hover, .quick-links ul li a:hover {
+    color:#2cabe1;
+    padding-left:10px;
+
+}.useful-links ul li a span, .quick-links ul li a span{
+    padding-right:10px;
+}
+.subscribe p{
+    color:#eeeeee;
+}
+
+.subscribe form{
+    background-color:#fff;
+    margin-bottom:20px;
+    padding:4px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.subscribe form input{
+    background-color: transparent;
+    border: none;
+}
+
+.subscribe form button {
+    background-color: #2cabe1;
+    border:none;
+    color:#fff;
+    padding:8px 14px;
+    border-radius: 4px;
+}
+
+.subscribe ul {
+    display:flex;
+
+}
+.subscribe ul li{
+    background-color:rgba(255,255,255,0.1);
+    width:50px;
+    height:50px;
+    margin-right: 10px;
+    margin-top: 16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe ul li a{
+    color:#eeeeee;
+}
+.subscribe ul li a:hover{
+    color:#2cabe1;
+}
+/* footer section css Ends*/
+
+/* Copyright Section Css Ends */
+
+.copyright{
+    background-color:#072044;
+    padding: 20px 80px;
+
+}
+
+.copyright p{
+    margin:0px;
+    color:#eeeeee;
+    font-size: 14px;
+}
+
+/* Copyright Section Css Ends */
+
+/* Whatsapp button starts */
+.whatsapp-button {
+    background-color: rgba(37,211,102,1.00);
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.whatsapp-button .fa-whatsapp{
+    color:#fff;
+    font-size: 30px;
+
+}
+
+.whatsapp-button .fa-whatsapp:hover{
+    color:#000;
+}
+
+/* Whatsapp button ends */
