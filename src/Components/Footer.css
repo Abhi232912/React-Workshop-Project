@@ -149,3 +149,55 @@ footer{
 }
 
 /* Whatsapp button ends */
+
+
+@media (max-width: 768px) { /* Tablets and large phones */
+    footer {
+        grid-template-columns: 1fr; /* Stack all sections vertically */
+        padding: 20px;
+    }
+
+    .subscribe form {
+        flex-direction: column; /* Stack input and button vertically */
+    }
+
+    .subscribe form button {
+        margin-top: 10px; /* Add spacing between input and button */
+    }
+
+    .subscribe ul {
+        justify-content: center; /* Center align icons */
+    }
+}
+
+@media (max-width: 480px) { /* Small mobile phones */
+    footer {
+        padding: 20px 10px;
+    }
+
+    .subscribe ul li {
+        width: 40px;
+        height: 40px; /* Smaller icons for mobile */
+        margin-right: 5px;
+    }
+
+    .subscribe form button {
+        width: 100%; /* Full width for mobile */
+        padding: 10px;
+    }
+}
+
+@media (max-width: 320px) { /* Very small phones */
+    footer {
+        padding: 10px;
+    }
+
+    .copyright p {
+        font-size: 12px; /* Smaller text for mobile */
+    }
+
+    .subscribe ul li {
+        width: 35px;
+        height: 35px; /* Even smaller icons */
+    }
+}
