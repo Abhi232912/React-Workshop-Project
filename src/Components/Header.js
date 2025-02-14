@@ -43,8 +43,8 @@ const Header = () => {
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Categories">CATEGORIES</Link></li>
-                <li><a href="https://digitinstitute.in/">COURSE</a></li>
-                <li><a href="https://digitinstitute.in/">BECOME AN INSTRUCTOR</a></li>
+                <li><a href=">COURSE</a></li>
+                <li><a href=">BECOME AN INSTRUCTOR</a></li>
                 <li><Link to="/Contact-US">CONTACT</Link></li>
             </ul>
         </div>
